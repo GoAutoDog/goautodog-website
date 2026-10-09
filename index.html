@@ -1,0 +1,514 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>GoAutoDog</title>
+<meta name="description" content="Sporty, reliable cars for under $15k, sold by the Hefer family with a fully documented maintenance history. No dealer fees, no pressure.">
+<meta property="og:title" content="GoAutoDog — Sporty cars for under $15k">
+<meta property="og:description" content="Every car is mechanically vetted, reconditioned and sold with a written summary of all the work completed.">
+<meta property="og:url" content="https://www.goautodog.com/">
+<meta name="theme-color" content="#0F1012">
+<link rel="canonical" href="https://www.goautodog.com/">
+<link rel="icon" type="image/png" href="img/favicon-64.png">
+<link rel="apple-touch-icon" href="img/icon-180.png">
+<meta property="og:image" content="https://www.goautodog.com/img/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- Shared SVG symbols -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="car-coupe" viewBox="0 0 240 92">
+    <path fill="currentColor" d="M8 64c0-11 9-17 24-19l38-6c14-13 33-19 58-19 22 0 38 7 52 19l38 6c11 2 16 8 16 16v6c0 3-2 5-5 5H13c-3 0-5-2-5-5z"/>
+    <path fill="#DCE3EA" opacity=".85" d="M80 40c11-10 26-14 46-14v14zm52-14c17 0 30 4 40 14h-40z"/>
+    <circle cx="62" cy="71" r="17" fill="#17191C"/><circle cx="62" cy="71" r="8" fill="#9BA1A8"/>
+    <circle cx="184" cy="71" r="17" fill="#17191C"/><circle cx="184" cy="71" r="8" fill="#9BA1A8"/>
+  </symbol>
+  <symbol id="check" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" d="M4 12.5l5 5L20 6.5"/></symbol>
+</svg>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="logo" href="#top" aria-label="GoAutoDog home">
+      <img class="logo-mascot" src="img/mascot-sm.png" alt="" width="200" height="123">
+      <span class="logo-word">GoAuto<span>Dog</span></span>
+    </a>
+    <button class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+    <nav class="nav" id="site-nav" aria-label="Main" data-open="false">
+      <ul class="nav-links">
+        <li><a href="#inventory">Inventory</a></li>
+        <li><a href="#standards">Our Detailing Standards</a></li>
+        <li><a href="#family">Meet the Family</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+      <div class="header-contact">
+        <a class="header-email" href="mailto:woof@goautodog.com">woof@goautodog.com</a>
+        <a class="btn btn-gold header-phone" href="tel:+19132088417">Call/Text 913-208-8417</a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ===== Hero ===== -->
+  <section class="hero" id="top">
+    <div class="wrap">
+      <div class="hero-grid">
+        <div>
+          <p class="eyebrow">Family-run · Fully documented</p>
+          <h1>Sporty, Reliable Cars <span class="line-2">for Under $15k.</span></h1>
+          <p class="hero-sub">Every vehicle is hand-sourced, mechanically vetted, comprehensively detailed, and sold with a fully documented maintenance history. No hidden dealer fees, no high-pressure tactics.</p>
+          <div class="hero-actions">
+            <a class="btn btn-gold" href="#inventory">Browse Active Inventory</a>
+            <a class="btn btn-ghost-light" href="#standards">Learn About Our Process</a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+        <aside class="ledger" aria-label="Sample GoAutoDog work summary">
+          <picture class="ledger-photo">
+            <source srcset="img/inventory/audi-tt-1.webp" type="image/webp">
+            <img src="img/inventory/audi-tt-1.jpg" alt="2002 Audi TT Quattro Convertible in Moro Blue Pearl" width="960" height="600" fetchpriority="high">
+          </picture>
+          <div class="ledger-head">
+            <strong>Work Summary</strong>
+            <span>2002 Audi TT Quattro Convertible</span>
+          </div>
+          <p class="ledger-meta">1.8L Turbo · 151,432 mi · Moro Blue Pearl</p>
+          <ul>
+            <li><span>New AGM battery</span><span>DONE</span></li>
+            <li><span>Tune-up: plugs &amp; filters</span><span>DONE</span></li>
+            <li><span>Pentosin CHF 11S hydraulic flush</span><span>DONE</span></li>
+            <li><span>A/C recharge</span><span>DONE</span></li>
+            <li><span>High-mileage oil service</span><span>DONE</span></li>
+          </ul>
+          <div class="ledger-foot">
+            <span class="stamp">Summary included</span>
+            <strong>$9,000</strong>
+          </div>
+        </aside>
+        </div>
+      </div>
+
+      <ul class="assurances">
+        <li><svg aria-hidden="true"><use href="#check"/></svg><span><strong>Private-party sale</strong>No hidden dealer fees, ever.</span></li>
+        <li><svg aria-hidden="true"><use href="#check"/></svg><span><strong>A work summary comes with the car</strong>Every repair, part and fluid service we did.</span></li>
+        <li><svg aria-hidden="true"><use href="#check"/></svg><span><strong>Talk to the family</strong>Call or text 913-208-8417. No sales floor.</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ===== Trust pillars ===== -->
+  <section class="section section-alt" id="standards" aria-labelledby="standards-title">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Our Detailing Standards</p>
+        <h2 id="standards-title">How we earn your trust before you see the car</h2>
+      </div>
+      <ul class="pillars">
+        <li class="pillar">
+          <span class="pillar-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M5 4h11a3 3 0 0 1 3 3v13H8a3 3 0 0 1-3-3zM5 17a3 3 0 0 1 3-3h11M9 8h6M9 11h4"/></svg></span>
+          <h3>The Work Summary Guarantee</h3>
+          <p>We record every repair, part replaced and fluid service. You receive a written summary of all the work completed when you buy the car.</p>
+        </li>
+        <li class="pillar">
+          <span class="pillar-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M4 17a8 8 0 1 1 16 0M12 17l4-5M7 13.5l1 .6M12 9v1.2M17 13.5l-1 .6"/></svg></span>
+          <h3>Specialized Portfolio</h3>
+          <p>Focused on naturally aspirated V8s, turbocharged daily drivers, and mid-engine sports cars.</p>
+        </li>
+        <li class="pillar">
+          <span class="pillar-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M12 3l1.8 4.7L18.5 9.5l-4.7 1.8L12 16l-1.8-4.7L5.5 9.5l4.7-1.8zM18 15l.8 2.2L21 18l-2.2.8L18 21l-.8-2.2L15 18l2.2-.8z"/></svg></span>
+          <h3>Detailed Before It's Listed</h3>
+          <p>Every car is reconditioned before sale: leather care, paint correction, and deep-cleaned carpets and seats.</p>
+        </li>
+        <li class="pillar">
+          <span class="pillar-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3" fill="none" stroke="currentColor" stroke-width="1.8"/></svg></span>
+          <h3>Total Transparency</h3>
+          <p>"As-Is" integrity. The price reflects everything captured in the car's documentation, including anything that's worn.</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ===== Inventory ===== -->
+  <section class="section" id="inventory" aria-labelledby="inventory-title">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Live Inventory</p>
+        <h2 id="inventory-title">The showroom</h2>
+        <p>Every car lists the work we've done and the work still in progress. Ask for the full work summary on any of them.</p>
+      </div>
+
+      <div class="inventory-bar">
+        <div class="filters" role="group" aria-label="Filter by status">
+          <button class="chip" type="button" data-filter="all" aria-pressed="true">All <span class="count" data-count="all"></span></button>
+          <button class="chip" type="button" data-filter="available" aria-pressed="false">Available <span class="count" data-count="available"></span></button>
+          <button class="chip" type="button" data-filter="recon" aria-pressed="false">In Reconditioning <span class="count" data-count="recon"></span></button>
+          <button class="chip" type="button" data-filter="adopted" aria-pressed="false">Adopted <span class="count" data-count="adopted"></span></button>
+        </div>
+        <p class="inventory-note">Every sale includes a written work summary.</p>
+      </div>
+
+      <!--
+        HOW TO UPDATE INVENTORY
+        Each car is one <li class="car">. Copy a block, then change:
+          data-status : available | recon | adopted
+          data-name   : used in the "Ask about this car" message
+          data-price  : number, or leave empty if not priced yet
+        PHOTOS: each card has a <picture> per photo (first one visible, the rest
+        marked hidden); the "1 / 2" button cycles through them. Save photos at
+        960x600 (16:10) as both .webp and .jpg in img/inventory/.
+        A car with no photos yet uses the paint-colored silhouette instead
+        (see the Kia card; set --paint to the car's color).
+      -->
+      <ul class="cars" id="cars">
+
+        <li class="car" data-status="available" data-name="2002 Audi TT Quattro Convertible" data-price="9000">
+          <div class="car-photo" data-gallery>
+            <picture>
+              <source srcset="img/inventory/audi-tt-1.webp" type="image/webp">
+              <img src="img/inventory/audi-tt-1.jpg" alt="2002 Audi TT Convertible in Moro Blue Pearl, front three-quarter view" width="960" height="600" loading="lazy" decoding="async">
+            </picture>
+            <picture hidden>
+              <source srcset="img/inventory/audi-tt-2.webp" type="image/webp">
+              <img src="img/inventory/audi-tt-2.jpg" alt="2002 Audi TT Convertible, front view" width="960" height="600" loading="lazy" decoding="async">
+            </picture>
+            <span class="badge badge-available">Available</span>
+            <button class="photo-next" type="button" aria-label="Show next photo"><span data-photo-count>1 / 2</span> <span aria-hidden="true">›</span></button>
+          </div>
+          <div class="car-body">
+            <div class="car-title">
+              <h3><small>2002 Audi</small>TT Quattro Convertible</h3>
+              <p class="price">$9,000</p>
+            </div>
+            <dl class="specs">
+              <div><dt>Engine</dt><dd>1.8L Turbo 4-Cyl</dd></div>
+              <div><dt>Miles</dt><dd>151,432</dd></div>
+              <div><dt>Color</dt><dd>Moro Blue Pearl</dd></div>
+            </dl>
+            <span class="title-status">Clean title · lien released</span>
+            <div class="highlights">
+              <h4>Maintenance highlights</h4>
+              <ul>
+                <li>Brand new AGM battery</li>
+                <li>Tune-up completed (plugs &amp; filters)</li>
+                <li>Pentosin CHF 11S hydraulic flush</li>
+                <li>A/C recharged</li>
+                <li>Fresh high-mileage oil service</li>
+              </ul>
+            </div>
+            <div class="car-actions">
+              <button class="btn btn-blue" type="button" data-ask>Ask about this car</button>
+            </div>
+          </div>
+        </li>
+
+        <li class="car" data-status="available" data-name="2010 Ford Mustang GT Coupe" data-price="">
+          <div class="car-photo" data-gallery>
+            <picture>
+              <source srcset="img/inventory/mustang-gt-1.webp" type="image/webp">
+              <img src="img/inventory/mustang-gt-1.jpg" alt="2010 Mustang GT in Dark Gray Metallic, front three-quarter view" width="960" height="600" loading="lazy" decoding="async">
+            </picture>
+            <picture hidden>
+              <source srcset="img/inventory/mustang-gt-2.webp" type="image/webp">
+              <img src="img/inventory/mustang-gt-2.jpg" alt="2010 Mustang GT, rear three-quarter view" width="960" height="600" loading="lazy" decoding="async">
+            </picture>
+            <span class="badge badge-available">Available</span>
+            <button class="photo-next" type="button" aria-label="Show next photo"><span data-photo-count>1 / 2</span> <span aria-hidden="true">›</span></button>
+          </div>
+          <div class="car-body">
+            <div class="car-title">
+              <h3><small>2010 Ford</small>Mustang GT Coupe</h3>
+              <!-- TODO: add asking price, e.g. <p class="price">$9,900</p> -->
+              <p class="price-soft">Call for price</p>
+            </div>
+            <dl class="specs">
+              <div><dt>Engine</dt><dd>4.6L V8</dd></div>
+              <div><dt>Miles</dt><dd>134,963</dd></div>
+              <div><dt>Color</dt><dd>Dark Gray Metallic</dd></div>
+            </dl>
+            <div class="highlights">
+              <h4>Maintenance highlights</h4>
+              <ul>
+                <li>Front suspension refresh: lower control arms, outer tie rods, swaybar links</li>
+                <li>New rear shocks</li>
+                <li>New valve cover gaskets</li>
+                <li>Precision 4-wheel alignment</li>
+              </ul>
+            </div>
+            <div class="car-actions">
+              <button class="btn btn-blue" type="button" data-ask>Ask about this car</button>
+            </div>
+          </div>
+        </li>
+
+        <li class="car" data-status="recon" data-name="2001 Porsche Boxster Convertible" data-price="13000">
+          <div class="car-photo" data-gallery>
+            <picture>
+              <source srcset="img/inventory/porsche-boxster-1.webp" type="image/webp">
+              <img src="img/inventory/porsche-boxster-1.jpg" alt="2001 Porsche Boxster in blue, front three-quarter view" width="960" height="600" loading="lazy" decoding="async">
+            </picture>
+            <picture hidden>
+              <source srcset="img/inventory/porsche-boxster-2.webp" type="image/webp">
+              <img src="img/inventory/porsche-boxster-2.jpg" alt="2001 Porsche Boxster, rear three-quarter view" width="960" height="600" loading="lazy" decoding="async">
+            </picture>
+            <span class="badge badge-recon">In Reconditioning</span>
+            <button class="photo-next" type="button" aria-label="Show next photo"><span data-photo-count>1 / 2</span> <span aria-hidden="true">›</span></button>
+          </div>
+          <div class="car-body">
+            <div class="car-title">
+              <h3><small>2001 Porsche</small>Boxster Convertible</h3>
+              <p class="price">$13,000</p>
+            </div>
+            <dl class="specs">
+              <div><dt>Engine</dt><dd>2.7L Flat-6</dd></div>
+              <div><dt>Miles</dt><dd>91,395</dd></div>
+              <div><dt>Color</dt><dd>Blue on Tan</dd></div>
+            </dl>
+            <div class="highlights">
+              <h4>Maintenance highlights</h4>
+              <ul>
+                <li>Diagnostic inspection by Porsche Kansas City</li>
+                <li>New FVP rear rotors</li>
+                <li>Replacement CV axle assembly installed</li>
+                <li class="pending"><em>In progress:</em> new leather seating installation</li>
+              </ul>
+            </div>
+            <div class="car-actions">
+              <button class="btn btn-ghost" type="button" data-ask>Get first dibs</button>
+            </div>
+          </div>
+        </li>
+
+        <li class="car" data-status="available" data-name="2011 Land Rover Range Rover Sport" data-price="13000">
+          <div class="car-photo" data-gallery>
+            <picture>
+              <source srcset="img/inventory/range-rover-sport-1.webp" type="image/webp">
+              <img src="img/inventory/range-rover-sport-1.jpg" alt="2011 Range Rover Sport in Alpine White, front three-quarter view" width="960" height="600" loading="lazy" decoding="async">
+            </picture>
+            <picture hidden>
+              <source srcset="img/inventory/range-rover-sport-2.webp" type="image/webp">
+              <img src="img/inventory/range-rover-sport-2.jpg" alt="2011 Range Rover Sport, front view from the passenger side" width="960" height="600" loading="lazy" decoding="async">
+            </picture>
+            <span class="badge badge-available">Available</span>
+            <button class="photo-next" type="button" aria-label="Show next photo"><span data-photo-count>1 / 2</span> <span aria-hidden="true">›</span></button>
+          </div>
+          <div class="car-body">
+            <div class="car-title">
+              <h3><small>2011 Land Rover</small>Range Rover Sport</h3>
+              <p class="price">$13,000</p>
+            </div>
+            <dl class="specs">
+              <div><dt>Engine</dt><dd>5.0L V8</dd></div>
+              <div><dt>Miles</dt><dd>99,307</dd></div>
+              <div><dt>Color</dt><dd>Alpine White / Oxford</dd></div>
+            </dl>
+            <div class="highlights">
+              <h4>Maintenance highlights</h4>
+              <ul>
+                <li>Full synthetic Valvoline 5W-20 oil service</li>
+                <li>Fresh cabin and engine air filters</li>
+                <li>New Bosch/Anco wipers</li>
+                <li>Headlights optically restored (wet-sanded and compounded)</li>
+              </ul>
+            </div>
+            <div class="car-actions">
+              <button class="btn btn-blue" type="button" data-ask>Ask about this car</button>
+            </div>
+          </div>
+        </li>
+
+        <li class="car" data-status="adopted" data-name="2020 Kia Optima LX" data-price="">
+          <div class="car-photo" style="--paint:#16181B">
+            <svg class="silhouette" aria-hidden="true"><use href="#car-coupe"/></svg>
+            <span class="badge badge-adopted">Adopted</span>
+          </div>
+          <div class="car-body">
+            <div class="car-title">
+              <h3><small>2020 Kia</small>Optima LX</h3>
+              <p class="price-soft">Sold</p>
+            </div>
+            <dl class="specs">
+              <div><dt>Engine</dt><dd>2.4L GDI 4-Cyl</dd></div>
+              <div><dt>Miles</dt><dd>129,311</dd></div>
+              <div><dt>Color</dt><dd>Black</dd></div>
+            </dl>
+            <div class="highlights">
+              <h4>Maintenance highlights</h4>
+              <ul>
+                <li>Brand new 41k-mile replacement engine installed, with an active 12-month / 12k-mile warranty</li>
+              </ul>
+            </div>
+            <p class="adopted-note">Adopted by a new family.</p>
+          </div>
+        </li>
+
+      </ul>
+      <p class="empty-state" id="empty-state" hidden>No cars in this group right now. Text us and we'll tell you what's coming next.</p>
+    </div>
+  </section>
+
+  <!-- ===== Family ===== -->
+  <section class="section section-alt" id="family" aria-labelledby="family-title">
+    <div class="wrap">
+      <div class="family-intro">
+        <div class="section-head">
+          <p class="eyebrow">Meet the Family</p>
+          <h2 id="family-title" class="slogan">We treat our cars like family pets.</h2>
+          <p>GoAutoDog is run by the Hefer family. Every car gets the care we'd give our own, and the paperwork to prove it.</p>
+        </div>
+        <img class="family-mascot" src="img/mascot.png" width="720" height="444" alt="The GoAutoDog mascot: a dog in sunglasses driving a blue convertible" loading="lazy">
+      </div>
+      <div class="family-grid">
+        <div class="mission">
+          <p class="eyebrow">The mission</p>
+          <blockquote>GoAutoDog is a real-world business masterclass.</blockquote>
+          <p>It teaches our team entrepreneurship, financial discipline and mechanical skills, and it helps fund college tuition. When you buy from us, you're buying from the people who did the work.</p>
+        </div>
+        <ul class="team">
+          <li class="member">
+            <picture class="member-photo">
+              <source srcset="img/team/blake.webp" type="image/webp">
+              <img src="img/team/blake.jpg" alt="Blake Hefer" width="800" height="600" loading="lazy" decoding="async">
+            </picture>
+            <div class="member-text">
+              <h3>Blake Hefer</h3>
+              <p class="role">Marketing Lead · KU Freshman</p>
+              <p>Leads creative marketing and vehicle photography.</p>
+            </div>
+          </li>
+          <li class="member">
+            <picture class="member-photo">
+              <source srcset="img/team/tristan.webp" type="image/webp">
+              <img src="img/team/tristan.jpg" alt="Tristan Hefer" width="800" height="600" loading="lazy" decoding="async">
+            </picture>
+            <div class="member-text">
+              <h3>Tristan Hefer</h3>
+              <p class="role">Technology Lead · K-State Freshman</p>
+              <p>Runs all things technology, including the back-end data system that lets us produce each car's documentation quickly.</p>
+            </div>
+          </li>
+          <li class="member">
+            <picture class="member-photo">
+              <source srcset="img/team/logan-devon.webp" type="image/webp">
+              <img src="img/team/logan-devon.jpg" alt="Logan and Devon Hefer" width="800" height="600" loading="lazy" decoding="async">
+            </picture>
+            <div class="member-text">
+              <h3>Logan &amp; Devon Hefer</h3>
+              <p class="role">Operations Crew</p>
+              <p>Twin brothers who run the garage: getting cars ready for photos and showings, and deep-cleaning the carpets and seats.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FAQ ===== -->
+  <section class="section" id="faq" aria-labelledby="faq-title">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">FAQ</p>
+        <h2 id="faq-title">Questions we hear a lot</h2>
+      </div>
+      <div class="faq">
+        <details>
+          <summary>Do you charge dealer fees?</summary>
+          <p>No. Every sale is a private-party transaction, so there are no doc fees, prep fees or add-ons. The price on the card is the price.</p>
+        </details>
+        <details>
+          <summary>Can I see what work was done before I buy?</summary>
+          <p>Yes. Ask for the car's work summary: it lists every repair, part replaced and fluid service we completed, and a copy goes home with the car.</p>
+        </details>
+        <details>
+          <summary>What does "As-Is" mean here?</summary>
+          <p>Our cars are sold as-is, without a dealer warranty. What we promise instead is honesty: if something is worn or needs attention, we tell you upfront and price the car accordingly.</p>
+        </details>
+        <details>
+          <summary>What does "In Reconditioning" mean?</summary>
+          <p>We own the car and are still working on it. The card shows what's done and what's in progress. Text us to get first dibs before it's listed as available.</p>
+        </details>
+        <details>
+          <summary>Is this a good place to buy a first car for my teenager?</summary>
+          <p>That's a big part of why we do this. Every car is mechanically vetted and fully documented, and you're dealing with the family that did the work, not a sales floor.</p>
+        </details>
+        <details>
+          <summary>Can my mechanic inspect the car?</summary>
+          <p>Yes. Text us to set up a time for a pre-purchase inspection with the mechanic of your choice.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Contact band ===== -->
+  <section class="contact-band" aria-labelledby="contact-title">
+    <div class="wrap contact-inner">
+      <div>
+        <h2 id="contact-title">See one you like?</h2>
+        <p>Call or text the family directly. No sales floor, no pressure.</p>
+      </div>
+      <div class="contact-actions">
+        <a class="btn btn-ink" href="sms:+19132088417">Text 913-208-8417</a>
+        <a class="btn btn-ink-ghost" href="mailto:woof@goautodog.com">woof@goautodog.com</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer" id="contact">
+  <div class="wrap">
+    <div class="footer-top">
+      <div>
+        <a class="logo" href="#top" aria-label="GoAutoDog home">
+          <img class="logo-mascot footer-mascot" src="img/icon-180.png" alt="" width="180" height="180">
+          <span class="logo-word">GoAuto<span>Dog</span></span>
+        </a>
+        <p class="footer-tag">Sporty cars for under $15k. We treat our cars like family pets.</p>
+      </div>
+      <div class="footer-contact">
+        <a href="tel:+19132088417">913-208-8417</a>
+        <a href="mailto:woof@goautodog.com">woof@goautodog.com</a>
+      </div>
+    </div>
+    <div class="legal">
+      <small>All vehicle sales are private party, transparent as-is transactions. Odometer readings and repair dates represent historical records retained in the GoAutoDog Operations Ledger.</small>
+      <small>© 2026 GoAutoDog.</small>
+    </div>
+  </div>
+</footer>
+
+<!-- Ask-about-this-car dialog -->
+<dialog class="ask-dialog" id="ask-dialog" aria-labelledby="ask-title">
+  <form method="dialog" class="ask-inner" id="ask-form">
+    <div class="ask-head">
+      <div>
+        <p class="eyebrow">Ask the family</p>
+        <h2 id="ask-title">About this car</h2>
+      </div>
+      <button class="close-btn" type="submit" aria-label="Close">×</button>
+    </div>
+    <div class="ask-message">
+      <label for="ask-text">Your message</label>
+      <textarea id="ask-text"></textarea>
+    </div>
+    <div class="ask-contacts">
+      <a class="btn btn-blue" id="ask-sms" href="sms:+19132088417">Text this message</a>
+      <a class="btn btn-ghost" id="ask-email" href="mailto:woof@goautodog.com">Email it</a>
+    </div>
+    <button class="btn btn-gold" type="button" id="ask-copy">Copy message</button>
+    <p class="copy-status" id="copy-status" role="status"></p>
+    <p class="ask-plain">Or reach us directly: <strong>913-208-8417</strong> · <strong>woof@goautodog.com</strong></p>
+  </form>
+</dialog>
+
+<script src="js/main.js"></script>
+</body>
+</html>
